@@ -756,25 +756,6 @@ section
 {
 	margin-top: 20px;
 }
-.tel {
-	position: fixed;
-	top: 550px;
-	left: 7%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	max-width: 6%;
-	z-index: 10;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-box-shadow: 0 0 15px 15px #28d23079;
-border-radius: 100px;
-}
 .course_box
 {
 	margin-bottom: 108px;
@@ -786,7 +767,7 @@ border-radius: 100px;
 .card
 {
 	display: block;
-	background: #f8f9fb;
+	background: #e4e4e4;
 	border: none;
 }
 .card-img-top
@@ -814,7 +795,7 @@ border-radius: 100px;
 }
 .card-title a:hover
 {
-	color: #8a8a8a;
+	color: #a5a5a5;
 }
 .card-text
 {
@@ -852,7 +833,7 @@ border-radius: 100px;
 }
 .course_price
 {
-	width: 100%;
+	width: 350px;
 	height: 67px;
 	background: #ffb606;
 	margin-left: auto;
