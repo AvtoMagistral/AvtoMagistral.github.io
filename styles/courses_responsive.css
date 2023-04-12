@@ -190,7 +190,7 @@
 	}
 	.course_box
 	{
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 	.course_box:nth-last-child(-n+3)
 	{
