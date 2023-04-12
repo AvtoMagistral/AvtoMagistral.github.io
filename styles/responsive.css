@@ -498,7 +498,7 @@
 	}
 	.tel {
 		position: fixed;
-		top: 450px;
+		top: 400px;
 		left: 10%;
 		-webkit-transform: translateX(-50%);
 		-moz-transform: translateX(-50%);
