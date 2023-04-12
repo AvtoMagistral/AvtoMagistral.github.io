@@ -1514,7 +1514,7 @@ input:last-of-type
 }
 .tel {
 	position: fixed;
-	top: 470px;
+	top: 550px;
 	left: 7%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
