@@ -455,6 +455,10 @@
 		height: 60px;
 		top: 15px;
 	}
+	.footer_copyright {
+		color: #eeeeee;
+		font-size: 12px;
+	}
 	.hero_slide_content h1
 	{
 		font-size: 28px;
