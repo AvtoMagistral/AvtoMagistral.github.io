@@ -833,7 +833,7 @@ section
 }
 .course_price
 {
-	width: 350px;
+	width: 100%;
 	height: 67px;
 	background: #ffb606;
 	margin-left: auto;
