@@ -242,12 +242,24 @@
 						<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
 						<div class="search_content text-center">
 							<h1 class="search_title">Зворотній зв'язок</h1>
-							<form id="search_form" class="search_form" action="post">
-								<input id="search_form_name" class="input_field search_form_name" type="text" placeholder="Ваше ім'я" required="required" data-error="Course name is required.">
-								<input id="search_form_category" class="input_field search_form_category" type="text" placeholder="Телефон">
-								<input id="search_form_degree" class="input_field search_form_degree" type="text" placeholder="Текст повідомлення">
-								<button id="search_submit_button" type="submit" class="search_submit_button trans_200" value="Submit">Надіслати</button>
-							</form>
+							
+							
+							
+							<form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xnqyrqnw" method="post" id="search_form" class="search_form">
+								<fieldset id="fs-frm-inputs">
+								 
+								  <input type="text" name="name" id="full-name" placeholder="Ваше ім'я" required="">
+								 
+								  							  
+								  <input type="telephone" name="telephone" id="telephone" placeholder="Номер телефону">
+								  
+								  <textarea rows="6" name="complaint" id="complaint" placeholder="Текст повідомлення (замовлення або питання)" required=""></textarea>
+								  <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+								</fieldset>
+								<input id="search_submit_button" type="submit" class="search_submit_button trans_200" value="Надіслати">
+							  </form>
+
+
 						</div> 
 					</div>
 
